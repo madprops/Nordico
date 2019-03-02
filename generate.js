@@ -33,19 +33,23 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
         }
     }
 
-    obj.colors["editor.selectionBackground"] = "#55807183",
-    obj.colors["editor.selectionHighlightBackground"] = "#434c5e7a",
     obj.colors["activityBar.background"] = "#282d38",
-    obj.colors["scrollbarSlider.background"] = "#31384699",
-
-    obj.colors["list.inactiveSelectionForeground"] = "#d8dee9",
-    obj.colors["list.activeSelectionForeground"] = "#d8dee9",
-		
     obj.colors["activityBarBadge.background"] = "#a9c3ca",
     obj.colors["activityBarBadge.foreground"] = "#000000",
+
     obj.colors["badge.background"] = "#a9c3ca",
     obj.colors["badge.foreground"] = "#000000"
 
+    obj.colors["editor.selectionBackground"] = "#55807183",
+    obj.colors["editor.selectionHighlightBackground"] = "#434c5e7a",
+    obj.colors["editor.hoverHighlightBackground"] = "#55807183"
+
+    obj.colors["scrollbarSlider.background"] = "#31384699",	
+
+    obj.colors["list.activeSelectionBackground"] = "#333b4b",
+    obj.colors["list.activeSelectionForeground"] = "#d8dee9",
+    obj.colors["list.activeSelectionBackground"] = "#333b4b",
+    obj.colors["list.inactiveSelectionForeground"] = "#d8dee9",
     obj.colors["list.hoverForeground"] = "#e6e6e6",
     obj.colors["list.focusForeground"] = "#e6e6e6",
     obj.colors["list.focusBackground"] = "#3e4657",
