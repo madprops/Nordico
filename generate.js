@@ -31,6 +31,11 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
         {
             obj.colors[key] = "#2b303b"
         }
+
+        else if(color === "#d8dee966")
+        {
+            obj.colors[key] = "#d8dee98c"
+        }
     }
 
     obj.colors["activityBar.background"] = "#282d38",
@@ -54,6 +59,8 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
     obj.colors["list.focusForeground"] = "#e6e6e6",
     obj.colors["list.focusBackground"] = "#3e4657",
     obj.colors["list.hoverBackground"] = "#2d3341"
+
+    obj.colors["tab.hoverBackground"] = "#383c4e6b",
 
     fs.writeFile(path.join("themes", "Nordico.json"), JSON.stringify(obj, null, 4), 'utf8', function(err)
     {
