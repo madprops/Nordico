@@ -59,7 +59,8 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
     obj.colors["list.focusForeground"] = "#e6e6e6",
     obj.colors["list.focusBackground"] = "#3e4657",
     obj.colors["list.hoverBackground"] = "#2d3341",
-    obj.colors["list.inactiveFocusBackground"] = "#534c722a"
+    obj.colors["list.inactiveFocusBackground"] = "#534c722a",
+    obj.colors["list.dropBackground"] = "#565ca352"
 
     obj.colors["tab.hoverBackground"] = "#383c4e6b",
 
