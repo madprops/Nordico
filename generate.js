@@ -54,7 +54,7 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
     obj.colors["list.activeSelectionBackground"] = "#333b4b",
     obj.colors["list.activeSelectionForeground"] = "#d8dee9",
     obj.colors["list.inactiveSelectionBackground"] = "#333b4b",
-    obj.colors["list.inactiveSelectionForeground"] = "#d8dee{P9",
+    obj.colors["list.inactiveSelectionForeground"] = "#d8dee9",
     obj.colors["list.hoverForeground"] = "#e6e6e6",
     obj.colors["list.focusForeground"] = "#e6e6e6",
     obj.colors["list.focusBackground"] = "#3e4657",
