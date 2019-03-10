@@ -1,6 +1,42 @@
 const fs = require("fs")
 const path = require("path")
 const fetch = require("node-fetch")
+const _ = require("lodash")
+
+function iequals(s1, s2)
+{
+    return s1.toLowerCase() === s2.toLowerCase()
+}
+
+function replace(obj, path)
+{
+    let color = _.get(obj, path)
+
+    if(iequals(color, "#2e3440"))
+    {
+        _.set(obj, path, "#252933")
+    }
+
+    if(iequals(color, "#434c5e"))
+    {
+        _.set(obj, path, "#333b4b")
+    }
+
+    if(iequals(color, "#3b4252"))
+    {
+        _.set(obj, path, "#2b303b")
+    }
+
+    if(iequals(color, "#d8dee966"))
+    {
+        _.set(obj, path, "#d8dee98c")
+    }
+
+    if(iequals(color, "#4C566A"))
+    {
+        _.set(obj, path, "#cccccc71")
+    }
+}
 
 fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/themes/nord.json")
 
@@ -15,27 +51,19 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
 
     for(let key in obj.colors)
     {
-        let color = obj.colors[key]
+        replace(obj, `colors["${key}"]`)
+    }
 
-        if(color === "#2e3440")
+    let n = 0
+
+    for(let item of obj.tokenColors)
+    {
+        for(let property in item.settings)
         {
-            obj.colors[key] = "#252933"
+            replace(obj, `tokenColors[${n}].settings["${property}"]`)
         }
 
-        else if(color === "#434c5e")
-        {
-            obj.colors[key] = "#333b4b"
-        }
-
-        else if(color === "#3b4252")
-        {
-            obj.colors[key] = "#2b303b"
-        }
-
-        else if(color === "#d8dee966")
-        {
-            obj.colors[key] = "#d8dee98c"
-        }
+        n += 1
     }
 
     obj.colors["activityBar.background"] = "#282d38",

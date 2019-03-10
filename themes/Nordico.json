@@ -13,7 +13,7 @@
         "badge.background": "#a9c3ca",
         "button.background": "#333b4b",
         "button.foreground": "#d8dee9",
-        "button.hoverBackground": "#4c566a",
+        "button.hoverBackground": "#cccccc71",
         "diffEditor.insertedTextBackground": "#a3be8c4d",
         "diffEditor.insertedTextBorder": "#a3be8c4d",
         "diffEditor.removedTextBackground": "#bf616a4d",
@@ -23,7 +23,7 @@
         "dropdown.foreground": "#d8dee9",
         "editorCursor.foreground": "#d8dee9",
         "editorIndentGuide.background": "#434c5eb3",
-        "editorIndentGuide.activeBackground": "#4c566a",
+        "editorIndentGuide.activeBackground": "#cccccc71",
         "editorLineNumber.foreground": "#d8dee98c",
         "editorWhitespace.foreground": "#4c566ab3",
         "editorWidget.background": "#252933",
@@ -48,7 +48,7 @@
         "editorWarning.border": "#ebcb8b00",
         "editorBracketMatch.background": "#2e344000",
         "editorBracketMatch.border": "#88c0d0",
-        "editorCodeLens.foreground": "#4c566a",
+        "editorCodeLens.foreground": "#cccccc71",
         "editorGroup.background": "#252933",
         "editorGroup.border": "#3b425200",
         "editorGroup.dropBackground": "#3b425299",
@@ -87,9 +87,9 @@
         "editorSuggestWidget.selectedBackground": "#333b4b",
         "extensionButton.prominentForeground": "#d8dee9",
         "extensionButton.prominentBackground": "#333b4b",
-        "extensionButton.prominentHoverBackground": "#4c566a",
+        "extensionButton.prominentHoverBackground": "#cccccc71",
         "errorForeground": "#bf616a",
-        "debugExceptionWidget.background": "#4c566a",
+        "debugExceptionWidget.background": "#cccccc71",
         "debugExceptionWidget.border": "#252933",
         "debugToolBar.background": "#2b303b",
         "input.background": "#2b303b",
@@ -123,7 +123,7 @@
         "notification.background": "#2b303b",
         "notification.foreground": "#d8dee9",
         "notification.buttonBackground": "#333b4b",
-        "notification.buttonHoverBackground": "#4c566a",
+        "notification.buttonHoverBackground": "#cccccc71",
         "notification.buttonForeground": "#d8dee9",
         "notification.infoBackground": "#88c0d0",
         "notification.infoForeground": "#252933",
@@ -136,7 +136,7 @@
         "panelTitle.activeBorder": "#88c0d000",
         "panelTitle.activeForeground": "#88c0d0",
         "panelTitle.inactiveForeground": "#d8dee9",
-        "peekView.border": "#4c566a",
+        "peekView.border": "#cccccc71",
         "peekViewEditor.background": "#252933",
         "peekViewEditorGutter.background": "#252933",
         "peekViewEditor.matchHighlightBackground": "#88c0d0cc",
@@ -169,7 +169,7 @@
         "statusBar.noFolderForeground": "#d8dee9",
         "statusBar.noFolderBackground": "#2b303b",
         "statusBar.foreground": "#d8dee9",
-        "statusBarItem.activeBackground": "#4c566a",
+        "statusBarItem.activeBackground": "#cccccc71",
         "statusBarItem.hoverBackground": "#333b4b",
         "statusBarItem.prominentBackground": "#2b303b",
         "statusBarItem.prominentHoverBackground": "#333b4b",
@@ -197,7 +197,7 @@
         "terminal.ansiMagenta": "#b48ead",
         "terminal.ansiCyan": "#88c0d0",
         "terminal.ansiWhite": "#e5e9f0",
-        "terminal.ansiBrightBlack": "#4c566a",
+        "terminal.ansiBrightBlack": "#cccccc71",
         "terminal.ansiBrightRed": "#bf616a",
         "terminal.ansiBrightGreen": "#a3be8c",
         "terminal.ansiBrightYellow": "#ebcb8b",
@@ -212,7 +212,7 @@
         "titleBar.inactiveForeground": "#d8dee98c",
         "walkThrough.embeddedEditorBackground": "#252933",
         "welcomePage.buttonBackground": "#333b4b",
-        "welcomePage.buttonHoverBackground": "#4c566a",
+        "welcomePage.buttonHoverBackground": "#cccccc71",
         "widget.shadow": "#00000066",
         "list.inactiveFocusBackground": "#534c722a"
     },
@@ -239,7 +239,7 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#4C566A"
+                "foreground": "#cccccc71"
             }
         },
         {
@@ -421,7 +421,7 @@
                 "punctuation.start.definition.comment"
             ],
             "settings": {
-                "foreground": "#4C566A"
+                "foreground": "#cccccc71"
             }
         },
         {
@@ -760,7 +760,7 @@
                 "source.java punctuation.definition.tag.end.javadoc"
             ],
             "settings": {
-                "foreground": "#4C566A"
+                "foreground": "#cccccc71"
             }
         },
         {
@@ -970,7 +970,7 @@
             "name": "[Markdown] Markup Quote Punctuation Definition",
             "scope": "text.html.markdown markup.quote",
             "settings": {
-                "foreground": "#4C566A"
+                "foreground": "#cccccc71"
             }
         },
         {
