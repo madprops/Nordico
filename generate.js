@@ -3,7 +3,7 @@ const path = require("path")
 const fetch = require("node-fetch")
 const _ = require("lodash")
 
-const values = 
+const replacements = 
 {
     "#2e3440": "#252933",
     "#434c5e": "#333b4b",
@@ -15,7 +15,7 @@ const values =
 function replace(obj, path)
 {
     let color = _.get(obj, path).toLowerCase()
-    let replacement = values[color]
+    let replacement = replacements[color]
 
     if(replacement)
     {
