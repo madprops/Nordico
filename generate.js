@@ -3,38 +3,23 @@ const path = require("path")
 const fetch = require("node-fetch")
 const _ = require("lodash")
 
-function iequals(s1, s2)
+const values = 
 {
-    return s1.toLowerCase() === s2.toLowerCase()
+    "#2e3440": "#252933",
+    "#434c5e": "#333b4b",
+    "#3b4252": "#2b303b",
+    "#d8dee966": "#d8dee98c",
+    "#4c566a": "#cccccc71"
 }
 
 function replace(obj, path)
 {
-    let color = _.get(obj, path)
+    let color = _.get(obj, path).toLowerCase()
+    let replacement = values[color]
 
-    if(iequals(color, "#2e3440"))
+    if(replacement)
     {
-        _.set(obj, path, "#252933")
-    }
-
-    if(iequals(color, "#434c5e"))
-    {
-        _.set(obj, path, "#333b4b")
-    }
-
-    if(iequals(color, "#3b4252"))
-    {
-        _.set(obj, path, "#2b303b")
-    }
-
-    if(iequals(color, "#d8dee966"))
-    {
-        _.set(obj, path, "#d8dee98c")
-    }
-
-    if(iequals(color, "#4C566A"))
-    {
-        _.set(obj, path, "#cccccc71")
+        _.set(obj, path, replacement)
     }
 }
 
