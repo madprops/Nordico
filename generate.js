@@ -77,7 +77,7 @@ fetch("https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code
 
     obj.colors["tab.hoverBackground"] = "#383c4e6b",
 
-    fs.writeFile(path.join("themes", "Nordico.json"), JSON.stringify(obj, null, 4), 'utf8', function(err)
+    fs.writeFile(path.join("themes", "Nordico.json"), JSON.stringify(obj, null, 4), 'utf8', err =>
     {
         if(err)
         {
