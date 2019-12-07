@@ -2,7 +2,7 @@
     "name": "nordico",
     "displayName": "Nordico",
     "description": "Based on Nord with some customizations",
-    "version": "1.0.8",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.31.0"
     },
@@ -19,8 +19,8 @@
         ]
     },
     "devDependencies": {
-        "node-fetch": "~2.3.0",
-        "lodash": "~4.17.11"
+        "lodash": "^4.17.15",
+        "node-fetch": "~2.3.0"
     },
     "publisher": "madprops",
     "keywords": [

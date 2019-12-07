@@ -1,0 +1,28 @@
+[2019-12-07 04:02:34.418] [exthost] [info] extension host started
+[2019-12-07 04:02:34.431] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-12-07 04:02:34.431] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-12-07 04:02:34.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-12-07 04:02:34.434] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/emmet/dist/extension
+[2019-12-07 04:02:34.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"JanBn.git-last-commit-message","_lower":"janbn.git-last-commit-message"},"activationEvent":"*"}
+[2019-12-07 04:02:34.452] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/git/dist/main
+[2019-12-07 04:02:34.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-12-07 04:02:34.480] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/merge-conflict/dist/extension
+[2019-12-07 04:02:34.483] [exthost] [info] ExtensionService#_doActivateExtension hoovercj.vscode-power-mode {"startup":true,"extensionId":{"value":"hoovercj.vscode-power-mode","_lower":"hoovercj.vscode-power-mode"},"activationEvent":"*"}
+[2019-12-07 04:02:34.483] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/hoovercj.vscode-power-mode-2.2.0/out/src/extension
+[2019-12-07 04:02:34.492] [exthost] [info] ExtensionService#_doActivateExtension madprops.fortune {"startup":true,"extensionId":{"value":"madprops.fortune","_lower":"madprops.fortune"},"activationEvent":"*"}
+[2019-12-07 04:02:34.492] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/madprops.fortune-1.1.0/extension.js
+[2019-12-07 04:02:34.492] [exthost] [info] ExtensionService#_doActivateExtension madprops.occurrence-count {"startup":true,"extensionId":{"value":"madprops.occurrence-count","_lower":"madprops.occurrence-count"},"activationEvent":"*"}
+[2019-12-07 04:02:34.492] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/madprops.occurrence-count-1.0.0/extension.js
+[2019-12-07 04:02:34.493] [exthost] [info] ExtensionService#_doActivateExtension madprops.when-did-i-start-working {"startup":true,"extensionId":{"value":"madprops.when-did-i-start-working","_lower":"madprops.when-did-i-start-working"},"activationEvent":"*"}
+[2019-12-07 04:02:34.493] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/madprops.when-did-i-start-working-1.0.1/extension.js
+[2019-12-07 04:02:34.494] [exthost] [info] ExtensionService#_doActivateExtension peterfh.linesinfostatusbar {"startup":true,"extensionId":{"value":"peterfh.linesinfostatusbar","_lower":"peterfh.linesinfostatusbar"},"activationEvent":"*"}
+[2019-12-07 04:02:34.494] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/peterfh.linesinfostatusbar-0.0.3/extension
+[2019-12-07 04:02:34.495] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"extensionId":{"value":"Shan.code-settings-sync","_lower":"shan.code-settings-sync"},"activationEvent":"*"}
+[2019-12-07 04:02:34.495] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/shan.code-settings-sync-3.4.3/out/extension.js
+[2019-12-07 04:02:34.569] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-12-07 04:02:34.569] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-1.7.20/dist/extension
+[2019-12-07 04:02:34.590] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2019-12-07 04:02:34.590] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/npm/dist/main
+[2019-12-07 04:02:34.626] [exthost] [info] eager extensions activated
+[2019-12-07 04:02:34.653] [exthost] [info] ExtensionService#_doActivateExtension JanBn.git-last-commit-message {"startup":true,"extensionId":{"value":"JanBn.git-last-commit-message","_lower":"janbn.git-last-commit-message"},"activationEvent":"*"}
+[2019-12-07 04:02:34.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yo/.vscode-oss/extensions/janbn.git-last-commit-message-1.8.0/dist/extension
