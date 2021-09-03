@@ -20,8 +20,6 @@ function replace (obj, path) {
   }
 }
 
-let jsawn
-
 if (process.argv[1] === "sync") {
   console.info("Fetching Nord json from GitHub")
 
