@@ -20,11 +20,11 @@ function replace (obj, path) {
   }
 }
 
-if (process.argv[1] === "sync") {
+if (process.argv[2] === "sync") {
   console.info("Fetching Nord json from GitHub")
 
   fetch(
-    "https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/themes/nord-color-theme.json"
+    "https://raw.githubusercontent.com/madprops/Nordico/master/themes/Nordico.json"
   )
     .then(res => {
       return res.text()
@@ -68,6 +68,7 @@ function process_json (obj) {
 
   obj.colors["editor.selectionBackground"] = "#55807183"
   obj.colors["editor.selectionHighlightBackground"] = "#434c5e7a"
+  obj.colors["editor.selectionHighlightBorder"] = "#a9c3ca"
   obj.colors["editor.hoverHighlightBackground"] = "#55807183"
 
   obj.colors["scrollbarSlider.background"] = "#31384699"
@@ -87,7 +88,7 @@ function process_json (obj) {
 
   obj.colors["editorIndentGuide.activeBackground"] = "#434c5eb3"
   obj.colors["editorLineNumber.foreground"] = "#616E88"
-  obj.colors["editorLineNumber.Activeforeground"] = "#616E88"
+  obj.colors["editorLineNumber.activeForeground"] = "#c8c8c8"
   obj.colors["editorCursor.foreground"] = "#6b7793"
   obj.colors["editorBracketMatch.border"] = "#6c7895"
 

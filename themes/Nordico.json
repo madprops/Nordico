@@ -30,7 +30,7 @@
         "editorIndentGuide.background": "#434c5eb3",
         "editorIndentGuide.activeBackground": "#434c5eb3",
         "editorLineNumber.foreground": "#616E88",
-        "editorLineNumber.activeForeground": "#d8dee9",
+        "editorLineNumber.activeForeground": "#c8c8c8",
         "editorWhitespace.foreground": "#4c566ab3",
         "editorWidget.background": "#252933",
         "editorWidget.border": "#2b303b",
@@ -244,7 +244,9 @@
         "welcomePage.buttonBackground": "#333b4b",
         "welcomePage.buttonHoverBackground": "#cccccc71",
         "widget.shadow": "#00000066",
-        "editorLineNumber.Activeforeground": "#616E88"
+        "editorLineNumber.Activeforeground": "#a9c3ca",
+        "editor.selectionHighlightBorder": "#a9c3ca",
+        "editor.selectionBorder": "red"
     },
     "tokenColors": [
         {
